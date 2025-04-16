@@ -154,9 +154,10 @@ html, body{
 .section-2{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
     padding: 20px;
     align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 .DISNEY{
     color: #00ff9f;
@@ -169,7 +170,7 @@ html, body{
 
 .img{
     margin-bottom: 5px;
-    width: 450px; ;
+    width: 150px; ;
 }
 
 .text{
